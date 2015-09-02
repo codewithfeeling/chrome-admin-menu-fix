@@ -11,10 +11,10 @@ namespace TheSpaceBetween\Tools;
 
 function load_scripts()
 {
+	// Check to see if Chrome is being used
 	$ua = $_SERVER['HTTP_USER_AGENT'];
 
 	if (strpos($ua,'Chrome/') > -1)
-
 	{
 		// Chrome found!
 
