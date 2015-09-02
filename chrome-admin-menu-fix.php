@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Chrome Admin Menu Fix
-Description: Quick and dirty fix for the Chrome menu display glitches with Open Sans / WordPress
+Description: Quick fix for the Chrome 45 admin menu display glitches
 Author: Steve Jones for The Space Between / Samuel Wood
 Author URI: http://the--space--between.com
 Version: 1.0.1
