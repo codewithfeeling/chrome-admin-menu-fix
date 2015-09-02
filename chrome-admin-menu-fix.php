@@ -2,14 +2,14 @@
 /*
 Plugin Name: Chrome Admin Menu Fix
 Description: Quick and dirty fix for the Chrome menu display glitches with Open Sans / WordPress
-Author: Steve Jones for The Space Between
+Author: Steve Jones for The Space Between / Samuel Wood
 Author URI: http://the--space--between.com
 Version: 1.0.1
 */
 
 function chromefix_admin_init()
 {
-	if ( strpos( $_SERVER['HTTP_USER_AGENT'], 'Chrome' ) !== false ) 
+	if ( strpos( $_SERVER['HTTP_USER_AGENT'], 'Chrome/45' ) !== false ) 
 	{
 		add_action( 'admin_enqueue_scripts', 'chromefix_enqueue_scripts' );
 		add_action( 'admin_footer', 'chromefix_print_js' );
