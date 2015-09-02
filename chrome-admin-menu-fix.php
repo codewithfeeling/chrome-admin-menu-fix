@@ -4,7 +4,7 @@ Plugin Name: Chrome Admin Menu Fix
 Description: Quick fix for the Chrome 45 admin menu display glitches
 Author: Steve Jones for The Space Between / Samuel Wood
 Author URI: http://the--space--between.com
-Version: 1.0.1
+Version: 1.1.0
 */
 
 function chromefix_admin_init()
