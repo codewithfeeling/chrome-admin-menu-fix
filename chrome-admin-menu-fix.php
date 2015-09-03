@@ -9,7 +9,7 @@ Version: 1.1.0
 
 function chromefix_admin_init()
 {
-	if ( strpos( $_SERVER['HTTP_USER_AGENT'], 'Chrome/45' ) !== false ) 
+	if ( strpos( $_SERVER['HTTP_USER_AGENT'], 'Chrome' ) !== false ) 
 	{
 		add_action( 'admin_enqueue_scripts', 'chromefix_enqueue_scripts' );
 		add_action( 'admin_footer', 'chromefix_print_js' );
