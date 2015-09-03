@@ -32,7 +32,7 @@ function chromefix_print_js()
 			});
 		})(jQuery);
 	</script>
-<?
+<?php
 }
 
 add_action( 'admin_init', 'chromefix_admin_init' );
