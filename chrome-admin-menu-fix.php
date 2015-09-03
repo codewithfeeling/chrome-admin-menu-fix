@@ -36,3 +36,5 @@ function chromefix_print_js()
 }
 
 add_action( 'admin_init', 'chromefix_admin_init' );
+
+?>
