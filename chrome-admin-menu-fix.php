@@ -28,7 +28,7 @@ function chromefix_print_js()
 	<script type='text/javascript'>
 		(function($){
 			$(window).load(function(){
-				$('#adminmenuwrap').hide().show();
+				$('#adminmenuwrap').hide().show(10);
 			});
 		})(jQuery);
 	</script>
