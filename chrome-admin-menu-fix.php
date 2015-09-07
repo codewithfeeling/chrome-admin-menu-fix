@@ -13,5 +13,3 @@ function chromefix_inline_css()
 }
 
 add_action('admin_enqueue_scripts', 'chromefix_inline_css');
-
-?>
